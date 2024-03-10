@@ -24,9 +24,16 @@ def run():
         page_icon="👋",
     )
 
-    st.write("#Hello! 👋 My name is Sparks!")
-    st.write("#I am a Singa-Korean living in Singapore.")    
-    st.write("#Check out my site at https://spk7741aero.com/")
+    st.write("# Hello!👋 My name is Sparks")
+
+    st.markdown(
+        """
+        I am Singa-Korean.
+        Check out my site at https://spk7741aero.com/
+    """
+    )
+
+    st.write("https://spk7741aero.com/")
 
     st.sidebar.success("Select a demo above.")
 
